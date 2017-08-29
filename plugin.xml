@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com-2glab-plugin-contacts" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <dependency id="cordova-plugin-add-swift-support" version="1.7.0"/>
+
+    <platform name="ios">
+      <config-file target="config.xml" parent="/*">
+        <feature name="PhonebookContacts">
+          <param name="ios-package" value="PhonebookContacts" />
+        </feature>
+      </config-file>
+      <source-file src="src/ios/PhonebookContacts.swift" />
+    </platform>
+
+    <name>PhonebookContacts</name>
+    <js-module name="PhonebookContacts" src="www/PhonebookContacts.js">
+        <clobbers target="navigator.phonebookContacts" />
+    </js-module>
+</plugin>

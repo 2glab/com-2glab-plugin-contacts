@@ -1,0 +1,25 @@
+{
+  "name": "PhonebookContacts",
+  "version": "0.0.1",
+  "description": "Work with contacts",
+  "cordova": {
+    "id": "com-2glab-plugin-contacts",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2glab/cordova-plugin-contacts-background.git"
+  },
+  "keywords": [
+    "ios 11",
+    "threading"
+  ],
+  "author": "Shalva Usubov 2GLab.com",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/2glab/cordova-plugin-contacts-background/issues"
+  },
+  "homepage": "https://github.com/2glab/cordova-plugin-contacts-background#readme"
+}
