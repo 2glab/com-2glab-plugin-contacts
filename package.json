@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2glab/cordova-plugin-contacts-background.git"
+    "url": "git+https://github.com/2glab/com-2glab-plugin-contacts.git"
   },
   "keywords": [
     "ios 11",
@@ -19,7 +19,7 @@
   "author": "Shalva Usubov 2GLab.com",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/2glab/cordova-plugin-contacts-background/issues"
+    "url": "https://github.com/2glab/com-2glab-plugin-contacts/issues"
   },
-  "homepage": "https://github.com/2glab/cordova-plugin-contacts-background#readme"
+  "homepage": "https://github.com/2glab/com-2glab-plugin-contacts#readme"
 }
