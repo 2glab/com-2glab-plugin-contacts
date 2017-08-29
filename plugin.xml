@@ -2,7 +2,7 @@
 <plugin id="com-2glab-plugin-contacts" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <dependency id="cordova-plugin-add-swift-support" version="1.7.0"/>
 
-    <name>PhonebookContacts</name>
+    <name>com-2glab-plugin-contacts</name>
     <description>Cordova Contacts Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,contacts,swift</keywords>
