@@ -16,6 +16,11 @@
         </feature>
       </config-file>
       <source-file src="src/ios/PhonebookContacts.swift" />
+
+      <preference name="CONTACTS_USAGE_DESCRIPTION" default=" " />
+      <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
+          <string>$CONTACTS_USAGE_DESCRIPTION</string>
+      </config-file>
     </platform>
 
     <js-module name="PhonebookContacts" src="www/PhonebookContacts.js">
